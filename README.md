@@ -21,7 +21,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - Challenge URL:  [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
-- Live Site URL: [Live URL]()
+- Live Site URL: [Live URL](https://fg-abc.github.io/FEM-InteractiveRatingComponent/)
 - What helped with making gradients: [CSS Gradient](https://www.css-gradient.com/)
 
 ## My process
