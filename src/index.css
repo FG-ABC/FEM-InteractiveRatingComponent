@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --White: hsl(0, 0%, 100%);
+
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--White);
+}
+
+h1{
+    font-weight: 700;
+    text-shadow: 1.5px 0 black;
+    opacity: 85%;
+}
+
+p{
+    opacity: 50%;
+}
+
+.BG{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.Card{
+    background: #2E3942;
+    background: radial-gradient(at center top, #2E3942 , #19202A 60%);
+    min-width: 330px;
+
+}
+
+.imgholder1{
+    background-color: hsl(213, 19%, 18%);
+}
+
+.imgholder2{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+}
+
+.score{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+}
+
+@media screen and (min-width: 470px) {
+    .Card {
+      width: 400px;
+    }
+  }
